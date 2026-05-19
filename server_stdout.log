@@ -1,0 +1,225 @@
+=======================================================
+  TEKÝRDAÐ SPOR REZERVASYON — Sync Server
+=======================================================
+  [>] Proje dizini: C:\Users\berkd\.gemini\antigravity\scratch\tekirdag-spor-rezervasyon
+  [>] CSV dizini:   C:\Users\berkd\.gemini\antigravity\scratch\tekirdag-spor-rezervasyon\data
+  [>] Adres:        http://localhost:8080
+  [>] Ana sayfa:    http://localhost:8080/index.html
+=======================================================
+  Sunucu çalýþýyor... Durdurmak için Ctrl+C
+
+[DEBUG] Mevcut CSV satýr sayýsý: 35
+[DEBUG] Dolu düðümler (booked_nodes): {'4_2026-05-18_10:00': True, '6_2026-05-18_20:00': True, '4_2026-05-18_18:00': True, '2_2026-05-18_19:00': True, '3_2026-05-18_18:00': True, '1_2026-05-18_18:00': True, '1_2026-05-19_17:00': True, '4_2026-05-20_10:00': True, '2_2026-05-21_14:00': True, '5_2026-05-22_11:00': True, '1_2026-05-22_14:00': True, '1_2026-05-19_22:00': True, '2_2026-05-19_20:00': True, '2_2026-05-19_17:00': True, '3_2026-05-19_20:00': True, '6_2026-05-19_20:00': True, '5_2026-05-19_18:00': True, '7_2026-05-19_22:00': True, '1_2026-05-19_20:00': True, '2_2026-05-19_21:00': True, '3_2026-05-19_17:00': True, '5_2026-05-19_19:00': True, '6_2026-05-19_19:00': True, '5_2026-05-19_22:00': True, '5_2026-05-18_17:00': True, '5_2026-05-18_18:00': True, '4_2026-05-18_20:00': True, '10_2026-05-19_21:00': True, '4_2026-05-18_19:00': True, '3_2026-05-18_17:00': True, '9_2026-05-19_22:00': True}
+[DEBUG] Gelen veri sayýsý: 1
+[DEBUG] Ýþlenen kayýt: id=RES-1779199703447, tesis=3, tarih=2026-05-19, saat=21:00, durum=Onaylandi, kullanici=00000000001
+[DEBUG]   -> Düðüm kilitlendi: 3_2026-05-19_21:00
+[DEBUG]   -> YENÝ KAYIT eklendi (id=RES-1779199703447)
+[DEBUG] Toplam yazýlan: 36 satýr (1 yeni)
+[OK] Sync tamamlandi: {'rezervasyonlar': '36 kayýt yazýldý'}
+[REQ] POST /api/sync HTTP/1.1
+[DEBUG] Mevcut CSV satýr sayýsý: 36
+[DEBUG] Dolu düðümler (booked_nodes): {'4_2026-05-18_10:00': True, '6_2026-05-18_20:00': True, '4_2026-05-18_18:00': True, '2_2026-05-18_19:00': True, '3_2026-05-18_18:00': True, '1_2026-05-18_18:00': True, '1_2026-05-19_17:00': True, '4_2026-05-20_10:00': True, '2_2026-05-21_14:00': True, '5_2026-05-22_11:00': True, '1_2026-05-22_14:00': True, '1_2026-05-19_22:00': True, '2_2026-05-19_20:00': True, '2_2026-05-19_17:00': True, '3_2026-05-19_20:00': True, '6_2026-05-19_20:00': True, '5_2026-05-19_18:00': True, '7_2026-05-19_22:00': True, '1_2026-05-19_20:00': True, '2_2026-05-19_21:00': True, '3_2026-05-19_17:00': True, '5_2026-05-19_19:00': True, '6_2026-05-19_19:00': True, '5_2026-05-19_22:00': True, '5_2026-05-18_17:00': True, '5_2026-05-18_18:00': True, '4_2026-05-18_20:00': True, '10_2026-05-19_21:00': True, '4_2026-05-18_19:00': True, '3_2026-05-18_17:00': True, '9_2026-05-19_22:00': True, '3_2026-05-19_21:00': True}
+[DEBUG] Gelen veri sayýsý: 35
+[DEBUG] Ýþlenen kayýt: id=RES-CSV-1, tesis=1, tarih=2026-05-10, saat=18:00, durum=Onaylandi, kullanici=2
+[DEBUG] Ýþlenen kayýt: id=RES-CSV-2, tesis=2, tarih=2026-05-11, saat=19:00, durum=Beklemede, kullanici=2
+[DEBUG] Ýþlenen kayýt: id=RES-CSV-3, tesis=3, tarih=2026-05-12, saat=20:00, durum=Onaylandi, kullanici=2
+[DEBUG] Ýþlenen kayýt: id=RES-CSV-4, tesis=4, tarih=2026-05-13, saat=21:00, durum=Iptal, kullanici=2
+[DEBUG] Ýþlenen kayýt: id=RES-CSV-5, tesis=5, tarih=2026-05-14, saat=22:00, durum=Onaylandi, kullanici=2
+[DEBUG] Ýþlenen kayýt: id=RES-CSV-6, tesis=6, tarih=2026-05-15, saat=17:00, durum=Beklemede, kullanici=2
+[DEBUG] Ýþlenen kayýt: id=RES-CSV-7, tesis=7, tarih=2026-05-16, saat=16:00, durum=Onaylandi, kullanici=2
+[DEBUG] Ýþlenen kayýt: id=RES-CSV-8, tesis=8, tarih=2026-05-17, saat=15:00, durum=Iptal, kullanici=2
+[DEBUG] Ýþlenen kayýt: id=RES-CSV-9, tesis=9, tarih=2026-05-18, saat=14:00, durum=Onaylandi, kullanici=2
+[DEBUG] Ýþlenen kayýt: id=RES-1779103855304, tesis=6, tarih=2026-05-18, saat=20:00, durum=Onaylandi, kullanici=00000000002
+[DEBUG]   -> Replay (ayný kullanýcý+slot), ATLANDI
+[DEBUG] Ýþlenen kayýt: id=RES-1779104497955, tesis=5, tarih=2026-05-18, saat=17:00, durum=Onaylandi, kullanici=00000000002
+[DEBUG]   -> Replay (ayný kullanýcý+slot), ATLANDI
+[DEBUG] Ýþlenen kayýt: id=RES-1779104556038, tesis=5, tarih=2026-05-18, saat=18:00, durum=Onaylandi, kullanici=00000000002
+[DEBUG]   -> Replay (ayný kullanýcý+slot), ATLANDI
+[DEBUG] Ýþlenen kayýt: id=RES-1779104910122, tesis=4, tarih=2026-05-18, saat=20:00, durum=Onaylandi, kullanici=00000000002
+[DEBUG]   -> Replay (ayný kullanýcý+slot), ATLANDI
+[DEBUG] Ýþlenen kayýt: id=RES-1779104989405, tesis=4, tarih=2026-05-18, saat=18:00, durum=Onaylandi, kullanici=00000000002
+[DEBUG]   -> Replay (ayný kullanýcý+slot), ATLANDI
+[DEBUG] Ýþlenen kayýt: id=RES-1779105164569, tesis=4, tarih=2026-05-18, saat=19:00, durum=Onaylandi, kullanici=00000000002
+[DEBUG]   -> Replay (ayný kullanýcý+slot), ATLANDI
+[DEBUG] Ýþlenen kayýt: id=RES-1779105219101, tesis=2, tarih=2026-05-18, saat=19:00, durum=Onaylandi, kullanici=00000000002
+[DEBUG]   -> ÇAKIÞMA! node_key=2_2026-05-18_19:00 zaten dolu
+[DEBUG]   -> Batch iþleminde atlandý.
+[DEBUG] Ýþlenen kayýt: id=RES-1779105308357, tesis=3, tarih=2026-05-18, saat=18:00, durum=Onaylandi, kullanici=00000000002
+[DEBUG]   -> ÇAKIÞMA! node_key=3_2026-05-18_18:00 zaten dolu
+[DEBUG]   -> Batch iþleminde atlandý.
+[DEBUG] Ýþlenen kayýt: id=RES-1779105539196, tesis=1, tarih=2026-05-18, saat=18:00, durum=Onaylandi, kullanici=00000000002
+[DEBUG]   -> ÇAKIÞMA! node_key=1_2026-05-18_18:00 zaten dolu
+[DEBUG]   -> Batch iþleminde atlandý.
+[DEBUG] Ýþlenen kayýt: id=RES-1779105926373, tesis=3, tarih=2026-05-18, saat=17:00, durum=Onaylandi, kullanici=00000000002
+[DEBUG]   -> Replay (ayný kullanýcý+slot), ATLANDI
+[DEBUG] Ýþlenen kayýt: id=RES-CSV-RES-1779197521573, tesis=1, tarih=2026-05-19, saat=22:00, durum=Arsivlendi, kullanici=00000000002
+[DEBUG] Ýþlenen kayýt: id=RES-CSV-RES-1779197609499, tesis=2, tarih=2026-05-19, saat=20:00, durum=Onaylandi, kullanici=00000000002
+[DEBUG] Ýþlenen kayýt: id=RES-CSV-RES-1779198418727, tesis=3, tarih=2026-05-19, saat=20:00, durum=Onaylandi, kullanici=00000000002
+[DEBUG] Ýþlenen kayýt: id=RES-CSV-RES-1779198469935, tesis=6, tarih=2026-05-19, saat=20:00, durum=Arsivlendi, kullanici=00000000001
+[DEBUG] Ýþlenen kayýt: id=RES-CSV-RES-1779198474364, tesis=5, tarih=2026-05-19, saat=18:00, durum=Arsivlendi, kullanici=00000000001
+[DEBUG] Ýþlenen kayýt: id=RES-CSV-RES-1779198477754, tesis=7, tarih=2026-05-19, saat=22:00, durum=Arsivlendi, kullanici=00000000001
+[DEBUG] Ýþlenen kayýt: id=RES-CSV-RES-1779198688194, tesis=1, tarih=2026-05-19, saat=20:00, durum=Arsivlendi, kullanici=00000000001
+[DEBUG] Ýþlenen kayýt: id=RES-CSV-RES-1779198692195, tesis=2, tarih=2026-05-19, saat=21:00, durum=Arsivlendi, kullanici=00000000001
+[DEBUG] Ýþlenen kayýt: id=RES-CSV-RES-1779198694823, tesis=3, tarih=2026-05-19, saat=17:00, durum=Onaylandi, kullanici=00000000001
+[DEBUG] Ýþlenen kayýt: id=RES-CSV-RES-1779198977028, tesis=5, tarih=2026-05-19, saat=19:00, durum=Iptal, kullanici=00000000001
+[DEBUG] Ýþlenen kayýt: id=RES-CSV-RES-1779198981816, tesis=6, tarih=2026-05-19, saat=19:00, durum=Onaylandi, kullanici=00000000001
+[DEBUG] Ýþlenen kayýt: id=RES-CSV-RES-1779199060977, tesis=7, tarih=2026-05-19, saat=22:00, durum=Onaylandi, kullanici=00000000001
+[DEBUG] Ýþlenen kayýt: id=RES-CSV-RES-1779199349096, tesis=5, tarih=2026-05-19, saat=22:00, durum=Iptal, kullanici=00000000001
+[DEBUG] Ýþlenen kayýt: id=RES-CSV-RES-1779199399446, tesis=10, tarih=2026-05-19, saat=21:00, durum=Iptal, kullanici=00000000001
+[DEBUG] Ýþlenen kayýt: id=RES-CSV-RES-1779199431136, tesis=9, tarih=2026-05-19, saat=22:00, durum=Iptal, kullanici=00000000001
+[DEBUG] Ýþlenen kayýt: id=RES-CSV-RES-1779199703447, tesis=3, tarih=2026-05-19, saat=21:00, durum=Iptal, kullanici=00000000001
+[DEBUG]   -> Güncelleme: ID RES-1779199703447 durumu 'Onaylandi' -> 'Iptal' oldu.
+[DEBUG] Toplam yazýlan: 36 satýr (0 yeni)
+[OK] Sync tamamlandi: {'rezervasyonlar': '36 kayýt yazýldý'}
+[REQ] POST /api/sync HTTP/1.1
+[DEBUG] Mevcut CSV satýr sayýsý: 36
+[DEBUG] Dolu düðümler (booked_nodes): {'4_2026-05-18_10:00': True, '6_2026-05-18_20:00': True, '4_2026-05-18_18:00': True, '2_2026-05-18_19:00': True, '3_2026-05-18_18:00': True, '1_2026-05-18_18:00': True, '1_2026-05-19_17:00': True, '4_2026-05-20_10:00': True, '2_2026-05-21_14:00': True, '5_2026-05-22_11:00': True, '1_2026-05-22_14:00': True, '1_2026-05-19_22:00': True, '2_2026-05-19_20:00': True, '2_2026-05-19_17:00': True, '3_2026-05-19_20:00': True, '6_2026-05-19_20:00': True, '5_2026-05-19_18:00': True, '7_2026-05-19_22:00': True, '1_2026-05-19_20:00': True, '2_2026-05-19_21:00': True, '3_2026-05-19_17:00': True, '5_2026-05-19_19:00': True, '6_2026-05-19_19:00': True, '5_2026-05-19_22:00': True, '5_2026-05-18_17:00': True, '5_2026-05-18_18:00': True, '4_2026-05-18_20:00': True, '10_2026-05-19_21:00': True, '4_2026-05-18_19:00': True, '3_2026-05-18_17:00': True, '9_2026-05-19_22:00': True}
+[DEBUG] Gelen veri sayýsý: 35
+[DEBUG] Ýþlenen kayýt: id=RES-CSV-1, tesis=1, tarih=2026-05-10, saat=18:00, durum=Onaylandi, kullanici=2
+[DEBUG] Ýþlenen kayýt: id=RES-CSV-2, tesis=2, tarih=2026-05-11, saat=19:00, durum=Beklemede, kullanici=2
+[DEBUG] Ýþlenen kayýt: id=RES-CSV-3, tesis=3, tarih=2026-05-12, saat=20:00, durum=Onaylandi, kullanici=2
+[DEBUG] Ýþlenen kayýt: id=RES-CSV-4, tesis=4, tarih=2026-05-13, saat=21:00, durum=Iptal, kullanici=2
+[DEBUG] Ýþlenen kayýt: id=RES-CSV-5, tesis=5, tarih=2026-05-14, saat=22:00, durum=Onaylandi, kullanici=2
+[DEBUG] Ýþlenen kayýt: id=RES-CSV-6, tesis=6, tarih=2026-05-15, saat=17:00, durum=Beklemede, kullanici=2
+[DEBUG] Ýþlenen kayýt: id=RES-CSV-7, tesis=7, tarih=2026-05-16, saat=16:00, durum=Onaylandi, kullanici=2
+[DEBUG] Ýþlenen kayýt: id=RES-CSV-8, tesis=8, tarih=2026-05-17, saat=15:00, durum=Iptal, kullanici=2
+[DEBUG] Ýþlenen kayýt: id=RES-CSV-9, tesis=9, tarih=2026-05-18, saat=14:00, durum=Onaylandi, kullanici=2
+[DEBUG] Ýþlenen kayýt: id=RES-1779103855304, tesis=6, tarih=2026-05-18, saat=20:00, durum=Onaylandi, kullanici=00000000002
+[DEBUG]   -> Replay (ayný kullanýcý+slot), ATLANDI
+[DEBUG] Ýþlenen kayýt: id=RES-1779104497955, tesis=5, tarih=2026-05-18, saat=17:00, durum=Onaylandi, kullanici=00000000002
+[DEBUG]   -> Replay (ayný kullanýcý+slot), ATLANDI
+[DEBUG] Ýþlenen kayýt: id=RES-1779104556038, tesis=5, tarih=2026-05-18, saat=18:00, durum=Onaylandi, kullanici=00000000002
+[DEBUG]   -> Replay (ayný kullanýcý+slot), ATLANDI
+[DEBUG] Ýþlenen kayýt: id=RES-1779104910122, tesis=4, tarih=2026-05-18, saat=20:00, durum=Onaylandi, kullanici=00000000002
+[DEBUG]   -> Replay (ayný kullanýcý+slot), ATLANDI
+[DEBUG] Ýþlenen kayýt: id=RES-1779104989405, tesis=4, tarih=2026-05-18, saat=18:00, durum=Onaylandi, kullanici=00000000002
+[DEBUG]   -> Replay (ayný kullanýcý+slot), ATLANDI
+[DEBUG] Ýþlenen kayýt: id=RES-1779105164569, tesis=4, tarih=2026-05-18, saat=19:00, durum=Onaylandi, kullanici=00000000002
+[DEBUG]   -> Replay (ayný kullanýcý+slot), ATLANDI
+[DEBUG] Ýþlenen kayýt: id=RES-1779105219101, tesis=2, tarih=2026-05-18, saat=19:00, durum=Onaylandi, kullanici=00000000002
+[DEBUG]   -> ÇAKIÞMA! node_key=2_2026-05-18_19:00 zaten dolu
+[DEBUG]   -> Batch iþleminde atlandý.
+[DEBUG] Ýþlenen kayýt: id=RES-1779105308357, tesis=3, tarih=2026-05-18, saat=18:00, durum=Onaylandi, kullanici=00000000002
+[DEBUG]   -> ÇAKIÞMA! node_key=3_2026-05-18_18:00 zaten dolu
+[DEBUG]   -> Batch iþleminde atlandý.
+[DEBUG] Ýþlenen kayýt: id=RES-1779105539196, tesis=1, tarih=2026-05-18, saat=18:00, durum=Onaylandi, kullanici=00000000002
+[DEBUG]   -> ÇAKIÞMA! node_key=1_2026-05-18_18:00 zaten dolu
+[DEBUG]   -> Batch iþleminde atlandý.
+[DEBUG] Ýþlenen kayýt: id=RES-1779105926373, tesis=3, tarih=2026-05-18, saat=17:00, durum=Onaylandi, kullanici=00000000002
+[DEBUG]   -> Replay (ayný kullanýcý+slot), ATLANDI
+[DEBUG] Ýþlenen kayýt: id=RES-CSV-RES-1779197521573, tesis=1, tarih=2026-05-19, saat=22:00, durum=Arsivlendi, kullanici=00000000002
+[DEBUG] Ýþlenen kayýt: id=RES-CSV-RES-1779197609499, tesis=2, tarih=2026-05-19, saat=20:00, durum=Onaylandi, kullanici=00000000002
+[DEBUG] Ýþlenen kayýt: id=RES-CSV-RES-1779198418727, tesis=3, tarih=2026-05-19, saat=20:00, durum=Onaylandi, kullanici=00000000002
+[DEBUG] Ýþlenen kayýt: id=RES-CSV-RES-1779198469935, tesis=6, tarih=2026-05-19, saat=20:00, durum=Arsivlendi, kullanici=00000000001
+[DEBUG] Ýþlenen kayýt: id=RES-CSV-RES-1779198474364, tesis=5, tarih=2026-05-19, saat=18:00, durum=Arsivlendi, kullanici=00000000001
+[DEBUG] Ýþlenen kayýt: id=RES-CSV-RES-1779198477754, tesis=7, tarih=2026-05-19, saat=22:00, durum=Arsivlendi, kullanici=00000000001
+[DEBUG] Ýþlenen kayýt: id=RES-CSV-RES-1779198688194, tesis=1, tarih=2026-05-19, saat=20:00, durum=Arsivlendi, kullanici=00000000001
+[DEBUG] Ýþlenen kayýt: id=RES-CSV-RES-1779198692195, tesis=2, tarih=2026-05-19, saat=21:00, durum=Arsivlendi, kullanici=00000000001
+[DEBUG] Ýþlenen kayýt: id=RES-CSV-RES-1779198694823, tesis=3, tarih=2026-05-19, saat=17:00, durum=Onaylandi, kullanici=00000000001
+[DEBUG] Ýþlenen kayýt: id=RES-CSV-RES-1779198977028, tesis=5, tarih=2026-05-19, saat=19:00, durum=Arsivlendi, kullanici=00000000001
+[DEBUG] Ýþlenen kayýt: id=RES-CSV-RES-1779198981816, tesis=6, tarih=2026-05-19, saat=19:00, durum=Onaylandi, kullanici=00000000001
+[DEBUG] Ýþlenen kayýt: id=RES-CSV-RES-1779199060977, tesis=7, tarih=2026-05-19, saat=22:00, durum=Onaylandi, kullanici=00000000001
+[DEBUG] Ýþlenen kayýt: id=RES-CSV-RES-1779199349096, tesis=5, tarih=2026-05-19, saat=22:00, durum=Arsivlendi, kullanici=00000000001
+[DEBUG] Ýþlenen kayýt: id=RES-CSV-RES-1779199399446, tesis=10, tarih=2026-05-19, saat=21:00, durum=Arsivlendi, kullanici=00000000001
+[DEBUG] Ýþlenen kayýt: id=RES-CSV-RES-1779199431136, tesis=9, tarih=2026-05-19, saat=22:00, durum=Arsivlendi, kullanici=00000000001
+[DEBUG] Ýþlenen kayýt: id=RES-CSV-RES-1779199703447, tesis=3, tarih=2026-05-19, saat=21:00, durum=Arsivlendi, kullanici=00000000001
+[DEBUG]   -> Güncelleme: ID RES-1779199703447 durumu 'Iptal' -> 'Arsivlendi' oldu.
+[DEBUG] Toplam yazýlan: 36 satýr (0 yeni)
+[OK] Sync tamamlandi: {'rezervasyonlar': '36 kayýt yazýldý'}
+[REQ] POST /api/sync HTTP/1.1
+[DEBUG] Mevcut CSV satýr sayýsý: 36
+[DEBUG] Dolu düðümler (booked_nodes): {'4_2026-05-18_10:00': True, '6_2026-05-18_20:00': True, '4_2026-05-18_18:00': True, '2_2026-05-18_19:00': True, '3_2026-05-18_18:00': True, '1_2026-05-18_18:00': True, '1_2026-05-19_17:00': True, '4_2026-05-20_10:00': True, '2_2026-05-21_14:00': True, '5_2026-05-22_11:00': True, '1_2026-05-22_14:00': True, '1_2026-05-19_22:00': True, '2_2026-05-19_20:00': True, '2_2026-05-19_17:00': True, '3_2026-05-19_20:00': True, '6_2026-05-19_20:00': True, '5_2026-05-19_18:00': True, '7_2026-05-19_22:00': True, '1_2026-05-19_20:00': True, '2_2026-05-19_21:00': True, '3_2026-05-19_17:00': True, '5_2026-05-19_19:00': True, '6_2026-05-19_19:00': True, '5_2026-05-19_22:00': True, '5_2026-05-18_17:00': True, '5_2026-05-18_18:00': True, '4_2026-05-18_20:00': True, '10_2026-05-19_21:00': True, '4_2026-05-18_19:00': True, '3_2026-05-18_17:00': True, '9_2026-05-19_22:00': True}
+[DEBUG] Gelen veri sayýsý: 1
+[DEBUG] Ýþlenen kayýt: id=RES-1779199774222, tesis=6, tarih=2026-05-19, saat=18:00, durum=Onaylandi, kullanici=00000000001
+[DEBUG]   -> Düðüm kilitlendi: 6_2026-05-19_18:00
+[DEBUG]   -> YENÝ KAYIT eklendi (id=RES-1779199774222)
+[DEBUG] Toplam yazýlan: 37 satýr (1 yeni)
+[OK] Sync tamamlandi: {'rezervasyonlar': '37 kayýt yazýldý'}
+[REQ] POST /api/sync HTTP/1.1
+[DEBUG] Mevcut CSV satýr sayýsý: 37
+[DEBUG] Dolu düðümler (booked_nodes): {'4_2026-05-18_10:00': True, '6_2026-05-18_20:00': True, '4_2026-05-18_18:00': True, '2_2026-05-18_19:00': True, '3_2026-05-18_18:00': True, '1_2026-05-18_18:00': True, '1_2026-05-19_17:00': True, '4_2026-05-20_10:00': True, '2_2026-05-21_14:00': True, '5_2026-05-22_11:00': True, '1_2026-05-22_14:00': True, '1_2026-05-19_22:00': True, '2_2026-05-19_20:00': True, '2_2026-05-19_17:00': True, '3_2026-05-19_20:00': True, '6_2026-05-19_20:00': True, '5_2026-05-19_18:00': True, '7_2026-05-19_22:00': True, '1_2026-05-19_20:00': True, '2_2026-05-19_21:00': True, '3_2026-05-19_17:00': True, '5_2026-05-19_19:00': True, '6_2026-05-19_19:00': True, '5_2026-05-19_22:00': True, '5_2026-05-18_17:00': True, '5_2026-05-18_18:00': True, '4_2026-05-18_20:00': True, '10_2026-05-19_21:00': True, '4_2026-05-18_19:00': True, '3_2026-05-18_17:00': True, '9_2026-05-19_22:00': True, '6_2026-05-19_18:00': True}
+[DEBUG] Gelen veri sayýsý: 36
+[DEBUG] Ýþlenen kayýt: id=RES-CSV-1, tesis=1, tarih=2026-05-10, saat=18:00, durum=Onaylandi, kullanici=2
+[DEBUG] Ýþlenen kayýt: id=RES-CSV-2, tesis=2, tarih=2026-05-11, saat=19:00, durum=Beklemede, kullanici=2
+[DEBUG] Ýþlenen kayýt: id=RES-CSV-3, tesis=3, tarih=2026-05-12, saat=20:00, durum=Onaylandi, kullanici=2
+[DEBUG] Ýþlenen kayýt: id=RES-CSV-4, tesis=4, tarih=2026-05-13, saat=21:00, durum=Iptal, kullanici=2
+[DEBUG] Ýþlenen kayýt: id=RES-CSV-5, tesis=5, tarih=2026-05-14, saat=22:00, durum=Onaylandi, kullanici=2
+[DEBUG] Ýþlenen kayýt: id=RES-CSV-6, tesis=6, tarih=2026-05-15, saat=17:00, durum=Beklemede, kullanici=2
+[DEBUG] Ýþlenen kayýt: id=RES-CSV-7, tesis=7, tarih=2026-05-16, saat=16:00, durum=Onaylandi, kullanici=2
+[DEBUG] Ýþlenen kayýt: id=RES-CSV-8, tesis=8, tarih=2026-05-17, saat=15:00, durum=Iptal, kullanici=2
+[DEBUG] Ýþlenen kayýt: id=RES-CSV-9, tesis=9, tarih=2026-05-18, saat=14:00, durum=Onaylandi, kullanici=2
+[DEBUG] Ýþlenen kayýt: id=RES-1779103855304, tesis=6, tarih=2026-05-18, saat=20:00, durum=Onaylandi, kullanici=00000000002
+[DEBUG]   -> Replay (ayný kullanýcý+slot), ATLANDI
+[DEBUG] Ýþlenen kayýt: id=RES-1779104497955, tesis=5, tarih=2026-05-18, saat=17:00, durum=Onaylandi, kullanici=00000000002
+[DEBUG]   -> Replay (ayný kullanýcý+slot), ATLANDI
+[DEBUG] Ýþlenen kayýt: id=RES-1779104556038, tesis=5, tarih=2026-05-18, saat=18:00, durum=Onaylandi, kullanici=00000000002
+[DEBUG]   -> Replay (ayný kullanýcý+slot), ATLANDI
+[DEBUG] Ýþlenen kayýt: id=RES-1779104910122, tesis=4, tarih=2026-05-18, saat=20:00, durum=Onaylandi, kullanici=00000000002
+[DEBUG]   -> Replay (ayný kullanýcý+slot), ATLANDI
+[DEBUG] Ýþlenen kayýt: id=RES-1779104989405, tesis=4, tarih=2026-05-18, saat=18:00, durum=Onaylandi, kullanici=00000000002
+[DEBUG]   -> Replay (ayný kullanýcý+slot), ATLANDI
+[DEBUG] Ýþlenen kayýt: id=RES-1779105164569, tesis=4, tarih=2026-05-18, saat=19:00, durum=Onaylandi, kullanici=00000000002
+[DEBUG]   -> Replay (ayný kullanýcý+slot), ATLANDI
+[DEBUG] Ýþlenen kayýt: id=RES-1779105219101, tesis=2, tarih=2026-05-18, saat=19:00, durum=Onaylandi, kullanici=00000000002
+[DEBUG]   -> ÇAKIÞMA! node_key=2_2026-05-18_19:00 zaten dolu
+[DEBUG]   -> Batch iþleminde atlandý.
+[DEBUG] Ýþlenen kayýt: id=RES-1779105308357, tesis=3, tarih=2026-05-18, saat=18:00, durum=Onaylandi, kullanici=00000000002
+[DEBUG]   -> ÇAKIÞMA! node_key=3_2026-05-18_18:00 zaten dolu
+[DEBUG]   -> Batch iþleminde atlandý.
+[DEBUG] Ýþlenen kayýt: id=RES-1779105539196, tesis=1, tarih=2026-05-18, saat=18:00, durum=Onaylandi, kullanici=00000000002
+[DEBUG]   -> ÇAKIÞMA! node_key=1_2026-05-18_18:00 zaten dolu
+[DEBUG]   -> Batch iþleminde atlandý.
+[DEBUG] Ýþlenen kayýt: id=RES-1779105926373, tesis=3, tarih=2026-05-18, saat=17:00, durum=Onaylandi, kullanici=00000000002
+[DEBUG]   -> Replay (ayný kullanýcý+slot), ATLANDI
+[DEBUG] Ýþlenen kayýt: id=RES-CSV-RES-1779197521573, tesis=1, tarih=2026-05-19, saat=22:00, durum=Arsivlendi, kullanici=00000000002
+[DEBUG] Ýþlenen kayýt: id=RES-CSV-RES-1779197609499, tesis=2, tarih=2026-05-19, saat=20:00, durum=Onaylandi, kullanici=00000000002
+[DEBUG] Ýþlenen kayýt: id=RES-CSV-RES-1779198418727, tesis=3, tarih=2026-05-19, saat=20:00, durum=Onaylandi, kullanici=00000000002
+[DEBUG] Ýþlenen kayýt: id=RES-CSV-RES-1779198469935, tesis=6, tarih=2026-05-19, saat=20:00, durum=Arsivlendi, kullanici=00000000001
+[DEBUG] Ýþlenen kayýt: id=RES-CSV-RES-1779198474364, tesis=5, tarih=2026-05-19, saat=18:00, durum=Arsivlendi, kullanici=00000000001
+[DEBUG] Ýþlenen kayýt: id=RES-CSV-RES-1779198477754, tesis=7, tarih=2026-05-19, saat=22:00, durum=Arsivlendi, kullanici=00000000001
+[DEBUG] Ýþlenen kayýt: id=RES-CSV-RES-1779198688194, tesis=1, tarih=2026-05-19, saat=20:00, durum=Arsivlendi, kullanici=00000000001
+[DEBUG] Ýþlenen kayýt: id=RES-CSV-RES-1779198692195, tesis=2, tarih=2026-05-19, saat=21:00, durum=Arsivlendi, kullanici=00000000001
+[DEBUG] Ýþlenen kayýt: id=RES-CSV-RES-1779198694823, tesis=3, tarih=2026-05-19, saat=17:00, durum=Onaylandi, kullanici=00000000001
+[DEBUG] Ýþlenen kayýt: id=RES-CSV-RES-1779198977028, tesis=5, tarih=2026-05-19, saat=19:00, durum=Arsivlendi, kullanici=00000000001
+[DEBUG] Ýþlenen kayýt: id=RES-CSV-RES-1779198981816, tesis=6, tarih=2026-05-19, saat=19:00, durum=Onaylandi, kullanici=00000000001
+[DEBUG] Ýþlenen kayýt: id=RES-CSV-RES-1779199060977, tesis=7, tarih=2026-05-19, saat=22:00, durum=Onaylandi, kullanici=00000000001
+[DEBUG] Ýþlenen kayýt: id=RES-CSV-RES-1779199349096, tesis=5, tarih=2026-05-19, saat=22:00, durum=Arsivlendi, kullanici=00000000001
+[DEBUG] Ýþlenen kayýt: id=RES-CSV-RES-1779199399446, tesis=10, tarih=2026-05-19, saat=21:00, durum=Arsivlendi, kullanici=00000000001
+[DEBUG] Ýþlenen kayýt: id=RES-CSV-RES-1779199431136, tesis=9, tarih=2026-05-19, saat=22:00, durum=Arsivlendi, kullanici=00000000001
+[DEBUG] Ýþlenen kayýt: id=RES-CSV-RES-1779199703447, tesis=3, tarih=2026-05-19, saat=21:00, durum=Arsivlendi, kullanici=00000000001
+[DEBUG] Ýþlenen kayýt: id=RES-CSV-RES-1779199774222, tesis=6, tarih=2026-05-19, saat=18:00, durum=Iptal, kullanici=00000000001
+[DEBUG]   -> Güncelleme: ID RES-1779199774222 durumu 'Onaylandi' -> 'Iptal' oldu.
+[DEBUG] Toplam yazýlan: 37 satýr (0 yeni)
+[OK] Sync tamamlandi: {'rezervasyonlar': '37 kayýt yazýldý'}
+[REQ] POST /api/sync HTTP/1.1
+[DEBUG] Mevcut CSV satýr sayýsý: 37
+[DEBUG] Dolu düðümler (booked_nodes): {'4_2026-05-18_10:00': True, '6_2026-05-18_20:00': True, '4_2026-05-18_18:00': True, '2_2026-05-18_19:00': True, '3_2026-05-18_18:00': True, '1_2026-05-18_18:00': True, '1_2026-05-19_17:00': True, '4_2026-05-20_10:00': True, '2_2026-05-21_14:00': True, '5_2026-05-22_11:00': True, '1_2026-05-22_14:00': True, '1_2026-05-19_22:00': True, '2_2026-05-19_20:00': True, '2_2026-05-19_17:00': True, '3_2026-05-19_20:00': True, '6_2026-05-19_20:00': True, '5_2026-05-19_18:00': True, '7_2026-05-19_22:00': True, '1_2026-05-19_20:00': True, '2_2026-05-19_21:00': True, '3_2026-05-19_17:00': True, '5_2026-05-19_19:00': True, '6_2026-05-19_19:00': True, '5_2026-05-19_22:00': True, '5_2026-05-18_17:00': True, '5_2026-05-18_18:00': True, '4_2026-05-18_20:00': True, '10_2026-05-19_21:00': True, '4_2026-05-18_19:00': True, '3_2026-05-18_17:00': True, '9_2026-05-19_22:00': True}
+[DEBUG] Gelen veri sayýsý: 36
+[DEBUG] Ýþlenen kayýt: id=RES-CSV-1, tesis=1, tarih=2026-05-10, saat=18:00, durum=Onaylandi, kullanici=2
+[DEBUG] Ýþlenen kayýt: id=RES-CSV-2, tesis=2, tarih=2026-05-11, saat=19:00, durum=Beklemede, kullanici=2
+[DEBUG] Ýþlenen kayýt: id=RES-CSV-3, tesis=3, tarih=2026-05-12, saat=20:00, durum=Onaylandi, kullanici=2
+[DEBUG] Ýþlenen kayýt: id=RES-CSV-4, tesis=4, tarih=2026-05-13, saat=21:00, durum=Iptal, kullanici=2
+[DEBUG] Ýþlenen kayýt: id=RES-CSV-5, tesis=5, tarih=2026-05-14, saat=22:00, durum=Onaylandi, kullanici=2
+[DEBUG] Ýþlenen kayýt: id=RES-CSV-6, tesis=6, tarih=2026-05-15, saat=17:00, durum=Beklemede, kullanici=2
+[DEBUG] Ýþlenen kayýt: id=RES-CSV-7, tesis=7, tarih=2026-05-16, saat=16:00, durum=Onaylandi, kullanici=2
+[DEBUG] Ýþlenen kayýt: id=RES-CSV-8, tesis=8, tarih=2026-05-17, saat=15:00, durum=Iptal, kullanici=2
+[DEBUG] Ýþlenen kayýt: id=RES-CSV-9, tesis=9, tarih=2026-05-18, saat=14:00, durum=Onaylandi, kullanici=2
+[DEBUG] Ýþlenen kayýt: id=RES-1779103855304, tesis=6, tarih=2026-05-18, saat=20:00, durum=Onaylandi, kullanici=00000000002
+[DEBUG]   -> Replay (ayný kullanýcý+slot), ATLANDI
+[DEBUG] Ýþlenen kayýt: id=RES-1779104497955, tesis=5, tarih=2026-05-18, saat=17:00, durum=Onaylandi, kullanici=00000000002
+[DEBUG]   -> Replay (ayný kullanýcý+slot), ATLANDI
+[DEBUG] Ýþlenen kayýt: id=RES-1779104556038, tesis=5, tarih=2026-05-18, saat=18:00, durum=Onaylandi, kullanici=00000000002
+[DEBUG]   -> Replay (ayný kullanýcý+slot), ATLANDI
+[DEBUG] Ýþlenen kayýt: id=RES-1779104910122, tesis=4, tarih=2026-05-18, saat=20:00, durum=Onaylandi, kullanici=00000000002
+[DEBUG]   -> Replay (ayný kullanýcý+slot), ATLANDI
+[DEBUG] Ýþlenen kayýt: id=RES-1779104989405, tesis=4, tarih=2026-05-18, saat=18:00, durum=Onaylandi, kullanici=00000000002
+[DEBUG]   -> Replay (ayný kullanýcý+slot), ATLANDI
+[DEBUG] Ýþlenen kayýt: id=RES-1779105164569, tesis=4, tarih=2026-05-18, saat=19:00, durum=Onaylandi, kullanici=00000000002
+[DEBUG]   -> Replay (ayný kullanýcý+slot), ATLANDI
+[DEBUG] Ýþlenen kayýt: id=RES-1779105219101, tesis=2, tarih=2026-05-18, saat=19:00, durum=Onaylandi, kullanici=00000000002
+[DEBUG]   -> ÇAKIÞMA! node_key=2_2026-05-18_19:00 zaten dolu
+[DEBUG]   -> Batch iþleminde atlandý.
+[DEBUG] Ýþlenen kayýt: id=RES-1779105308357, tesis=3, tarih=2026-05-18, saat=18:00, durum=Onaylandi, kullanici=00000000002
+[DEBUG]   -> ÇAKIÞMA! node_key=3_2026-05-18_18:00 zaten dolu
+[DEBUG]   -> Batch iþleminde atlandý.
+[DEBUG] Ýþlenen kayýt: id=RES-1779105539196, tesis=1, tarih=2026-05-18, saat=18:00, durum=Onaylandi, kullanici=00000000002
